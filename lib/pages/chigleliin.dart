@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:test_project/const/constants.dart';
 import 'package:http/http.dart' as http;
+import 'package:test_project/components/constanrs.dart';
 
 class Chigleliin extends StatefulWidget {
   const Chigleliin({super.key});

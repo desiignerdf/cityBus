@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/widget/api_service.dart';
+import 'package:test_project/model/api_service.dart';
 
 import '../model/user_model.dart';
 

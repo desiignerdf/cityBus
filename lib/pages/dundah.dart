@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:test_project/const/constants.dart';
-import 'dart:async';
+import 'package:test_project/components/constanrs.dart';
 import 'dart:convert';
 import 'dart:core';
-
-import 'package:test_project/pages/details.dart';
 import 'package:test_project/pages/search.dart';
+
+import 'details/details.dart';
 
 class Dundah extends StatefulWidget {
   const Dundah({super.key});
@@ -99,7 +98,7 @@ class Items extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  gradient: LinearGradient(
+                  gradient: const LinearGradient(
                     colors: [
                       Colors.pink,
                       Colors.red,
