@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_project/model/api_service.dart';
-
-import '../model/user_model.dart';
+import 'package:test_project/model/user_model.dart';
 
 class SearchUser extends SearchDelegate {
   FetchUserList _userList = FetchUserList();

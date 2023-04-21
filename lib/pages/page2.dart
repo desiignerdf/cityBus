@@ -5,7 +5,7 @@ import 'package:test_project/pages/details/page2details.dart';
 import 'dart:convert';
 import 'dart:core';
 
-import 'package:test_project/pages/search.dart';
+import 'package:test_project/pages/search/search.dart';
 
 class Page2 extends StatefulWidget {
   const Page2({super.key});
