@@ -118,10 +118,27 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-    - family: Rowdies
-      fonts:
-        - asset: fonts/Rowdies-Regular.ttf
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: Poppins-ExtraBoldItalic.ttf
+  #       - asset: Poppins-ExtraLight.ttf
+  #       - asset: Poppins-ExtraLightItalic.ttf
+  #       - asset: Poppins-Italic.ttf
+  #       - asset: Poppins-Light.ttf
+  #       - asset: Poppins-LightItalic.ttf
+  #       - asset: Poppins-Medium.ttf
+  #       - asset: Poppins-MediumItalic.ttf
+  #       - asset: Poppins-Regular.ttf
+  #       - asset: Poppins-SemiBold.ttf
+  #       - asset: Poppins-SemiBoldItalic.ttf
+  #       - asset: Poppins-Thin.ttf
+  #       - asset: Poppins-ThinItalic.ttf
+  #       - asset: Poppins-Black.ttf
+  #       - asset: Poppins-BlackItalic.ttf
+  #       - asset: Poppins-Bold.ttf
+  #       - asset: Poppins-BoldItalic.ttf
+  #       - asset: Poppins-ExtraBold.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
