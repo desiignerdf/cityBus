@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:test_project/components/constanrs.dart';
-import 'package:test_project/pages/details/page2details.dart';
+import 'package:test_project/pages/page2buuda.dart';
 import 'dart:convert';
 import 'dart:core';
 
@@ -98,7 +98,7 @@ class Items extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  gradient: LinearGradient(
+                  gradient: const LinearGradient(
                     colors: [
                       Colors.pink,
                       Colors.red,
@@ -123,10 +123,16 @@ class Items extends StatelessWidget {
                     style: const TextStyle(
                         fontSize: 16, fontWeight: FontWeight.w400),
                   ),
+                  // onTap: () => Navigator.of(context).push(
+                  //   MaterialPageRoute(
+                  //     builder: (BuildContext context) =>
+                  //         Page2Details(list: list, index: i),
+                  //     // Page2Buudal(),
+                  //   ),
+                  // ),
                   onTap: () => Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (BuildContext context) =>
-                          Page2Details(list: list, index: i),
+                      builder: (BuildContext context) => const Page2Buudal(),
                     ),
                   ),
                   iconColor: Colors.white,
