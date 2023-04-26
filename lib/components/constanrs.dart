@@ -12,6 +12,9 @@ const String t2 = "http://192.168.1.102/dashboard/myfolder/t2awah.php";
 const String c1 = "http://192.168.1.102/dashboard/myfolder/c1awah.php";
 const String c10 = "http://192.168.1.102/dashboard/myfolder/c10awah.php";
 const String ch15 = "http://192.168.1.102/dashboard/myfolder/ch15awah.php";
+const String ch16 = "http://192.168.1.102/dashboard/myfolder/ch16awah.php";
+const String ch31 = "http://192.168.1.102/dashboard/myfolder/ch31awah.php";
+const String ch61 = "http://192.168.1.102/dashboard/myfolder/ch61awah.php";
 
 class Secrets {
   // Add your Google Maps API Key here
