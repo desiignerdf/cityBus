@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_project/chiglel/chiglel15/ch15.dart';
 import 'package:test_project/chiglel/chiglel2/T2.dart';
 import 'package:test_project/chiglel/chiglel3/c1.dart';
 import 'package:test_project/chiglel/chiglel4/C10.dart';
@@ -209,9 +210,11 @@ class _Page2BuudalState extends State<Page2Buudal> {
                   size: 35,
                   color: Colors.white,
                 ),
-                onTap: () {
-                  print("sdsd");
-                },
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => const CH15(),
+                  ),
+                ),
               ),
             ),
             Container(
