@@ -53,7 +53,7 @@ class MySearch extends SearchDelegate {
   ];
   @override
   Widget? buildLeading(BuildContext context) => IconButton(
-        icon: Icon(
+        icon: const Icon(
           Icons.arrow_back_ios,
           color: Colors.red,
         ),
