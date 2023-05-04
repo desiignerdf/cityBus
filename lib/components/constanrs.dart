@@ -3,19 +3,18 @@
 // ignore: constant_identifier_names
 const String google_api_keyy = "AIzaSyB2eMlBq2M1sQZgq-fpUDAi2HBvMQTNI9Q";
 const String json_api_url = "https://jsonplaceholder.typicode.com/users/";
-const String api_url =
-    "http://192.168.99.163/dashboard/myfolder/buudalawah.php";
+const String api_url = "http://192.168.1.162/dashboard/myfolder/buudalawah.php";
 const String manage_chiglel =
-    "http://192.168.99.163/dashboard/myfolder/managechiglel.php";
-const String ch1 = "http://192.168.99.163/dashboard/myfolder/dundiinawah.php";
-const String ch2 = "http://192.168.99.163/dashboard/myfolder/ch2awah.php";
-const String t2 = "http://192.168.99.163/dashboard/myfolder/t2awah.php";
-const String c1 = "http://192.168.99.163/dashboard/myfolder/c1awah.php";
-const String c10 = "http://192.168.99.163/dashboard/myfolder/c10awah.php";
-const String ch15 = "http://192.168.99.163/dashboard/myfolder/ch15awah.php";
-const String ch16 = "http://192.168.99.163/dashboard/myfolder/ch16awah.php";
-const String ch31 = "http://192.168.99.163/dashboard/myfolder/ch31awah.php";
-const String ch61 = "http://192.168.99.163/dashboard/myfolder/ch61awah.php";
+    "http://192.168.1.162/dashboard/myfolder/managechiglel.php";
+const String ch1 = "http://192.168.1.162/dashboard/myfolder/dundiinawah.php";
+const String ch2 = "http://192.168.1.162/dashboard/myfolder/ch2awah.php";
+const String t2 = "http://192.168.1.162/dashboard/myfolder/t2awah.php";
+const String c1 = "http://192.168.1.162/dashboard/myfolder/c1awah.php";
+const String c10 = "http://192.168.1.162/dashboard/myfolder/c10awah.php";
+const String ch15 = "http://192.168.1.162/dashboard/myfolder/ch15awah.php";
+const String ch16 = "http://192.168.1.162/dashboard/myfolder/ch16awah.php";
+const String ch31 = "http://192.168.1.162/dashboard/myfolder/ch31awah.php";
+const String ch61 = "http://192.168.1.162/dashboard/myfolder/ch61awah.php";
 
 class Secrets {
   // Add your Google Maps API Key here

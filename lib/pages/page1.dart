@@ -112,29 +112,20 @@ class _Page1State extends State<Page1> {
                     topRight: Radius.circular(30),
                   ),
                 ),
-                child: Column(
+                child: const Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(top: 20),
+                      padding: EdgeInsets.only(top: 40),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: const [
+                        children: [
                           MyButton(
-                            iconImagePath: "assets/page1.png",
-                            buttonText: "U-Money сунгах",
-                          ),
-                          MyButton(
-                            iconImagePath: "assets/flutterqr.jpg",
-                            buttonText: "Хэтэвч цэнэглэх",
-                          ),
-                          MyButton(
-                            iconImagePath: "assets/page1.png",
-                            buttonText: "  Төлбөр төлөх",
+                            iconImagePath: "assets/dip.png",
+                            buttonText: "  Намайг уншуул",
                           ),
                         ],
                       ),
                     ),
-                    const SizedBox(height: 25),
                   ],
                 ),
               ),

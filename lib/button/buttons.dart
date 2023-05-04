@@ -12,7 +12,7 @@ class MyButton extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
-          height: 100,
+          height: 260,
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
             color: Colors.transparent,
@@ -27,12 +27,14 @@ class MyButton extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 10),
-        Text(
-          buttonText,
-          style: const TextStyle(
-            fontSize: 13,
-            fontWeight: FontWeight.bold,
-            color: Colors.pink,
+        Center(
+          child: Text(
+            buttonText,
+            style: const TextStyle(
+              fontSize: 32,
+              fontWeight: FontWeight.bold,
+              color: Colors.pink,
+            ),
           ),
         )
       ],
